@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    margin: 0;
+    padding: 20px;
+  }
+  h2 {
+    color: #000000;
+  }
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  input[type="number"] {
+    display: block;
+    margin-bottom: 20px;
+    border-top: 5 px solid black;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 2 px solid black;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #45a049;
+  }
+  
