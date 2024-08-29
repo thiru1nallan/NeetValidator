@@ -1,36 +1,62 @@
 body {
     font-family: Arial, sans-serif;
-    
+    background-color: #f4f4f4;
+    background-size:cover;
     margin: 0;
-    padding: 20px;
-  }
-  h2 {
-    color: #000000;
-  }
-  label {
-    display: inline-block;
-    margin-bottom: 10px;
-    font-weight: bold;
-  }
-  input[type="number"] {
-    display: block;
-    margin-bottom: 20px;
-    border-top: 5 px solid black;
-    padding: 10px;
-    width: 100%;
-    max-width: 300px;
-    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
 
-  }
-  button {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 15px;
-    padding: 10px 20px;
-    border: 2 px solid black;
+.container {
+    background-color: rgba(181, 230, 231, 0.1);;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px ;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background: #882421;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
     cursor: pointer;
-  }
-  button:hover {
-    background-color: #45a049;
-  }
-  
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+#results {
+    margin-top: 30px;
+}
+
+#results p {
+    margin: 5px 0;
+}
